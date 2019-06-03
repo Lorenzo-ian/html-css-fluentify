@@ -2,3 +2,113 @@
     margin: 0;
     padding: 0;
 }
+
+/* blocco header */
+
+header {
+    height: 500px;
+    border-bottom: 1px solid black;
+}
+
+/* blocco contenitore */
+/* aumento altezza contenitore colonne a due */
+.bloccocolonnedue {
+    height: 1250px;
+}
+/*primo blocco*/
+section {
+    height: 450px;
+    border-bottom: 1px solid black;
+}
+
+.colonne {
+    float: left;
+    width: 33%;
+    height: 350px;
+    border: 1px solid black;
+
+}
+
+.contcolonne::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/*secondo blocco*/
+.colonnedue {
+    float: left;
+    height: 350px;
+    width: 49%;
+    border: 1px solid black;
+}
+
+.colonnedue::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/*terzo blocco*/
+.colonnetre {
+    float: left;
+    height: 350px;
+    width: 49%;
+    border: 1px solid black;
+}
+
+.colonnetre::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/*quarto blocco*/
+.colonnequattro {
+    float: left;
+    height: 350px;
+    width: 49%;
+    border: 1px solid black;
+}
+
+.colonnequattro::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/* quinto blocco */
+.colonnecinque {
+    width: 50%;
+    height: 450px;
+    border: 1px solid black;
+    margin-left: 25%;
+}
+/* sesto blocco */
+.contcolonnesei {
+    float: left;
+    height: 448px;
+    width: 50%;
+    border: 1px solid black;
+}
+.contcolonnesei::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/* settimo blocco */
+.colonnesette {
+    float: left;
+    width: 30%;
+    height: 448px;
+    border: 1px solid black;
+    margin-left: 19px;
+    margin-right: 19px;
+}
+.contcolonnesette::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/* blocco footer */
+ footer {
+    height: 350px;
+    background-color:blue;
+    border-bottom: 1px solid black;
+ }
